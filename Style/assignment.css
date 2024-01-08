@@ -12,8 +12,7 @@ header{
     background-repeat: no-repeat;
     background-size: cover;
     border-radius: 16px;
-    justify-content: center;
-    
+    justify-content: center;  
     
 }
 .banner-desc{
@@ -70,35 +69,45 @@ header{
 /* welcome to midnight party section styles */
 
 .main-sec2-container{
+    
+}
+.midnight-sec-container{
+
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
     background-image:linear-gradient(to right, #070211 0%, rgba(7,2,17,0.00)100%) ,url('../resources/Vectorrr.png');
     background-repeat: no-repeat;
     background-size: cover;
     margin: 100px 140px;
-    height: 400px;
+    height: 500px;
     border-radius: 16px;
+    
+}
+
+.midnight-img img{
+    width: 250px;
+    height: 300px;
+    
 }
 .main-sec2-title{
 
     font-size: 64px;
     color: white;
     font-weight: 900;
-    padding-top: 50px;
-    padding-left: 50px;
-    
 }
 .main-sec2-desc{
     font-size: 18px;
     color: white;
     font-weight: 400;
-    padding-left: 50px;
-   
+    
 }
 .btn-primary{
     background-color: deeppink;
     color: white;
     border-radius: 5px;
     border: 0px;
-    margin-left: 50px;
     font-size: 20px;
     font-weight: 700;
     padding: 10px;
@@ -146,6 +155,13 @@ header{
     padding: 10px;
     width: 350px;
 }
+.row-img:hover img{
+    transform: scale(1.2);
+    border-radius: 10px;
+}
+    
+
+
 .row-2{
     display: flex;
     flex-direction: row;
@@ -155,6 +171,10 @@ header{
 .row-2-img img{
     padding: 10px;
     width: 350px;
+}
+.row-2-img:hover img {
+    transform:scale(1.2);
+    border-radius: 10px;
 }
 
 /* portfolio styles end */
