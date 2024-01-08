@@ -115,6 +115,73 @@ header{
 
 
 /* bonus styles start */
+.bonus-container{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+   margin: 100px;
+   gap: 100px;
+    
+}
+.text-part{
+    width: 33.33%;
+}
+.img-part{
+    width: 33.33%;
+}
+.last-part{
+    width: 33.33%;
+}
+.text-title{
+    
+    color: deeppink;
+    font-family: 'Inter', sans-serif;
+    font-size: 24px;
+    font-weight: 500;
+}
+.text-title-1{
+    color: #070211;
+    font-family: 'Merriweather', serif;
+    font-size: 48px;
+    font-weight: 900;
+
+}
+.text-desc{
+    color: rgba(7, 2, 17, 0.60);
+    font-family: 'Inter', sans-serif;
+    font-size: 20px;
+    font-weight: 400;
+}
+
+
+.circle{
+    height: 300px;
+    width: 300px;
+    border-radius: 50%;  
+    border: 5px solid deeppink ;
+    overflow: hidden;
+    border-spacing: 5px;
+}
+.circle img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    
+    
+}
+
+.bonus-title{
+    color: deeppink;
+    font-family: 'Inter', sans-serif;
+    font-size: 48px;
+    font-weight: 700;
+}
+.bonus-desc{
+    color: rgba(7, 2, 17, 0.60);
+    font-family: 'Inter', sans-serif;
+    font-size: 20px;
+    font-weight: 400;
+}
 
 /* bonus styles end */
 
